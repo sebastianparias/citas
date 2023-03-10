@@ -7,6 +7,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Requisitos
+PHP superior a 7.3  
+Composer > v2
+mysql  Ver 15.1 Distrib 10.4.27-MariaDB
+
 ## Cómo instalar en local
 Para clonar esta aplicación a un entorno local, sigue estos pasos:
 
@@ -14,13 +19,14 @@ Para clonar esta aplicación a un entorno local, sigue estos pasos:
 `cd /ruta/al/directorio`
 
 2. Clona el repositorio de la aplicación Laravel existente desde GitHub:
-`git clone <https://github.com/sebastianparias/citas>`
+`git clone https://github.com/sebastianparias/citas`
 
-3. Una vez que se haya clonado el repositorio, navega al directorio de la aplicación:
-`cd citas`
+3. Una vez que se haya clonado el repositorio, navega al directorio de la aplicación y abre el editor de código:
+`cd citas`  
+`code .`
 
-4. Copia el archivo .env.example a un nuevo archivo llamado .env:
-`cp .env.example .env`
+4. Copia el archivo .env.example a un nuevo archivo llamado .env, en windows:
+`copy .env.example .env`
 Y actualiza los parámetros acorde a la configuración de tu motor de base de datos:
 
 DB_CONNECTION=mysql  
